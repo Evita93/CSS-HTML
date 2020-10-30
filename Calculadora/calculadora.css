@@ -1,38 +1,68 @@
-form {
-    width: 100%;
-    max-width: 400px;
-    text-align: center;
-    border: solid 3px black;
-    border-radius: 20px;
-    padding-bottom: 10px;
-    margin: auto;
-    background: #d47a7a;
-  }
-  input[type=textfield] {
-    width: 75%;
-    padding: 16px 32px;
-    font-size: 16px;
-    margin: 8px 0;
-    border: 1px solid silver;
-    border-radius: 1px;
-    text-align: left;
-    color:black;
-    background: rgb(228, 224, 224);
-    border: solid 2px black;
-    border-radius: 20px;
-    font:oblique bold 120% cursive;
+body{
+  margin: 0;
+  padding: 0;
 }
-input[type=button], input[type=submit], input[type=reset] {
-    background-color: rgb(154, 228, 228);
-    border: none;
-    color:black;
-    padding: 16px 32px;
-    font-size: 16px;
-    min-width: 21%;
-    text-decoration: none;
-    margin: 4px 2px;
-    cursor: pointer;
-    border: black 4px outset;
-    font:oblique bold 120% cursive;
+.contenido{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+.contenido-calculadora{
+  justify-content: center;
+  width: 400px;
+  height: 450px;
+  background-color:pink;
+  border-radius: 10px;
+  padding: 20px 15px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: 85px;
+  grid-gap: 20px;
+  border: solid black;
+}
+.pantalla {
+  background-color:gainsboro;
+  border-radius: 10px;
+  padding: 15px;
+  grid-column: 1 / 5;
+  border: black solid;
+  
+}
+.pantalla >input{
+  border: none;
+  background:none;
+  padding: 0;
+  outline: inherit;
+  font-size: 50px;
+  width: 100%;
+}
+.botones>input{
+  background-color: white;
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  outline: none;
+  font-size: 35px;
 
+}
+.boton-igual > .equal{
+  background-color: white;
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  outline: none;
+  font-size: 35px;
+}
+.boton-borrar > .borrar{
+  background-color: white;
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  outline: none;
+  font-size: 35px;
+}

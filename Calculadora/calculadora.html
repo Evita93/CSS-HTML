@@ -5,28 +5,73 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" /><!-- Etiqueta para adaptar la medida -->
   <LINK REL="stylesheet" TYPE="text/css" HREF="calculadora.css">
 </head>
-
-  <form name="calculator">
+<body>
+<div class="contenido">
+  <div class="contenido-calculadora">
     
-    <h1>Calculadora</h1>
-    <input type="textfield" name="pantalla" value="">
-    <br>
-    <input type="button" value="1" onClick="document.calculator.pantalla.value+='1'">
-    <input type="button" value="2" onClick="document.calculator.pantalla.value+='2'">
-    <input type="button" value="3" onClick="document.calculator.pantalla.value+='3'">
-    <input type="button" value="+" onClick="document.calculator.pantalla.value+='+'">
-    <br>
-    <input type="button" value="4" onClick="document.calculator.pantalla.value+='4'">
-    <input type="button" value="5" onClick="document.calculator.pantalla.value+='5'">
-    <input type="button" value="6" onClick="document.calculator.pantalla.value+='6'">
-    <input type="button" value="-" onClick="document.calculator.pantalla.value+='-'">
-    <br>
-    <input type="button" value="7" onClick="document.calculator.pantalla.value+='7'">
-    <input type="button" value="8" onClick="document.calculator.pantalla.value+='8'">
-    <input type="button" value="9" onClick="document.calculator.pantalla.value+='9'">
-    <input type="button" value="*" onClick="document.calculator.pantalla.value+='*'">
-    <br>
-    <input type="button" value="0" onClick="document.calculator.pantalla.value+='0'">
-    <input type="reset" value="c">
-    <input type="button" value="/" onClick="document.calculator.pantalla.value+='/'">
-    <input type="button" value="=" onClick="document.calculator.pantalla.value=eval(document.calculator.pantalla.value)">
+    <div class="pantalla">
+      <input type="text" placeholder="" disabled id="pantalla">
+    </div>
+
+    <div class="botones">
+      <input type="button" value="7" onclick="getData(this)">
+    </div>
+
+    <div class="botones">
+      <input type="button" value="8" onclick="getData(this)">
+    </div>
+
+    <div class="botones">
+      <input type="button" value="9" onclick="getData(this)">
+    </div>
+
+    <div class="botones">
+      <input type="button" value="+" onclick="getData(this)">
+    </div>
+    
+    <div class="botones">
+      <input type="button" value="4" onclick="getData(this)">
+    </div> 
+
+    <div class="botones">
+      <input type="button" value="5" onclick="getData(this)">
+    </div> 
+
+    <div class="botones">
+      <input type="button" value="6" onclick="getData(this)">
+    </div>
+
+    <div class="boton-borrar">
+      <input type="button" value="C" class="borrar" onclick="borrar()">
+    </div>
+
+    <div class="botones">
+      <input type="button" value="1" onclick="getData(this)">
+    </div>
+
+    <div class="botones">
+      <input type="button" value="2" onclick="getData(this)">
+    </div>
+
+    <div class="botones">
+      <input type="button" value="3" onclick="getData(this)">
+    </div>
+
+    <div class="boton-igual">
+      <input type="button" value="=" class="equal" onclick="resultado()">
+    </div>
+      
+  </div>
+
+  </div>
+
+
+</div>
+
+<script type="text/javascript" src="calculadora.js"></script>
+
+
+
+</body>
+</html>
+  
