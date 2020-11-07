@@ -1,0 +1,17 @@
+
+    header { 
+    background-color: cadetblue;
+    display: block;
+    } 
+
+    .cabecera{
+        display: none;
+        
+    }
+    
+    /*SIEMPRE va al final del archivo css 'RESPONSIVE'*/
+@media only screen and (max-width:600px) {
+    header {
+        height: 80px;
+    }
+}
