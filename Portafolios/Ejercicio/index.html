@@ -13,24 +13,49 @@
         <div id="wrap-title">
             <a href="#">LOGO</a>
         </div>
-            <div id="header-menu">
+        <div id="header-menu">
             <div></div>
             <div></div>
             <div></div>
-            </div>
+        </div>
         <nav id="navbar">
             <ul>
                 <li><a href="#">Contacto</a></li>
                 <li><a href="portafolio.html">Portafolio</a></li>
                 <li><a href="#">Perfil</a></li>
                 <li><a href="#">Inicio</a></li>
-                
-                
 
             </ul>
         </nav>
+
     </header>
     <main></main>
+    <style>
+        #fechahoy {
+            font-size: 1.2em;
+            
+            margin: 12px;
+        }
+    </style>
+    <div id="fechahoy"></div>
+    <script>
+        var d = new Date();
+        var month = new Array(12);
+        month[0] = 'Enero';
+        month[1] = 'Febrero';
+        month[2] = 'Marzo';
+        month[3] = 'Abril';
+        month[4] = 'Mayo';
+        month[5] = 'Junio';
+        month[6] = 'Julio';
+        month[7] = 'Agosto';
+        month[8] = 'Septiembre';
+        month[9] = 'Octubre';
+        month[10] = 'Noviembre';
+        month[11] = 'Diciembre';
+        var todaysDate = +d.getDate() + ' de ' + month[d.getUTCMonth()] + ' del ' + d.getUTCFullYear();
+        document.getElementById('fechahoy').innerHTML = 'Hoy es: ' + todaysDate;
+    </script>
     <footer>
         <div id="wrap-footer">
             <p>
@@ -40,6 +65,12 @@
         </div>
     </footer>
 
+
+    <script>
+        var ran
+        ran = Math.round(Math.random() * 50000)
+        document.write("Usted es el visitante " + ran + " de esta página.")
+    </script>
 </body>
 
 </html>

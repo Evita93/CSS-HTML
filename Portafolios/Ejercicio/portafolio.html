@@ -29,24 +29,30 @@
             </ul>
         </nav>
     </header>
+   
     <div>
-        <div class="caja1">
+        <div >
             <dl>
-                <dt>first title</dt>
-                <dd><img src="imagen.jpg"></dd>
+                <dt>Calculadora</dt>
+                <dd>
+                  <a title="calculadora" href="calculadora.html">
+                    <img src="imagen.jpg" alt="calculadora" width="400" height="300">
+                   </a></dd>
+                   
               </dl>
+              <input type="button" value="Ver Pop Up" onclick="pop()">
 
         </div>
-        <div class="caja2">
+        <div >
             
           <dl>
-            <dt>second title</dt>
+            <dt>Cajas de Colores</dt>
             <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure necessitatibus voluptates corrupti, libero voluptatum sunt!</dd>
           </dl>
 
 
         </div>
-        <div class="caja3">
+        <div>
             <dl>
                 <dt>third title</dt>
                 <dd>Lorem elit. Iure necessitatibus voluptates corrupti, libero voluptatum sunt!</dd>
@@ -54,7 +60,7 @@
     
 
         </div>
-        <div class="caja4">
+        <div >
             <dl>
                 <dt>forth title</dt>
                 <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure necessitatibus voluptates corrupti, libero voluptatum sunt!</dd>
@@ -62,16 +68,22 @@
               
 
         </div>
-        
-       
-       
-       
-         
-         
+           
     </div>
-
-   
-
+    <footer>
+        <div id="wrap-footer">
+            <p>
+                &copy; Eva Moreno <br>
+                correo : evamnore@hotmail.com
+            </p>
+        </div>
+    </footer> 
+    
+  <script type="text/javascript">
+    function pop(){
+        window.open("calculadora.html","","width=600%,height=600%");
+    }
+  </script>
 </body>
 
 </html>

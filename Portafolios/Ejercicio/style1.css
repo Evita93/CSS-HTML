@@ -10,24 +10,9 @@ body {
   
 }
 
-div.caja1{
-float: left;
-}
-div.caja2{
-  float: left;
-  }
-div.caja3{
-    float: left;
-    
-    }
-div.caja4{
-      float: left;
-      }
-
 
 dl {
   height: 40vh;
-  max-width: 70vh;
   width: 100%;
   align-self: center;
   box-sizing: border-box;
@@ -40,12 +25,8 @@ dl {
   -webkit-transition: box-shadow 0.3s ease-out;
   transition: box-shadow 0.3s ease-out;
 }
-dl:nth-child(even) {
-  margin-left: 20px;
-}
-dl:nth-child(odd) {
-  margin-right: 20px;
-}
+
+
 dl:hover {
   box-shadow: 0px 5px 0px 0px rgba(153, 153, 153, 0);
 }
@@ -93,3 +74,6 @@ dd {
   color: #999;
   font-size: 2.3vh;
 }
+
+
+
