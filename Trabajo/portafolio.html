@@ -7,7 +7,10 @@
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/fontello.css">
 </head>
-<body>
+<body class="body2">
+    <div id="wrap-title">
+        <a href="#"><img src="img/logo.png" width="40" height="40">Steel</a>
+       </div>
     <header>
         <input type="checkbox" id="btn-menu">
         <label for="btn-menu" class="icon-menu"></label>
@@ -15,14 +18,66 @@
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="#">Perfil</a></li>
-                <li><a href="#">Guia de Estilo</a></li>
+                <li><a href="guia.html">Guia de Estilo</a></li>
                 <li><a href="portafolio.html">Portafolio</a></li>
                 <li><a href="#">Contacto</a></li>
             </ul>
 
         </nav>
     </header>
-    <main></main>
+     
+        <div>
+            <div >
+                <dl>
+                    <dt>Calculadora</dt>
+                    <dd>
+                      <a title="calculadora" href="js/calculadora.html">
+                        <img src="img/imagen_calculadora.jpg" alt="calculadora" width="100%" height="100%">
+                       </a></dd>
+                       
+                  </dl>
+                  <input type="button" value="Ver Pop Up" onclick="pop()">
+    
+            </div>
+            <div >
+                
+              <dl>
+                <dt>Cajas de Colores</dt>
+                <dd>
+                    <a title="calculadora" href="calculadora.html">
+                        <img src="img/imagen_caja.jpg" alt="calculadora" width="100%" height="100%">
+                       </a></dd>
+                </dd>
+              </dl>
+    
+    
+            </div>
+            <div>
+                <dl>
+                    <dt>Adobe XD</dt>
+                    <dd>
+                        <a title="calculadora" href="calculadora.html">
+                            <img src="img/imagen_xd.jpg" alt="calculadora" width="150%" height="100%">
+                           </a></dd>
+                    </dd>
+                  </dl>
+        
+    
+            </div>
+            <div >
+                <dl>
+                    <dt>Trabajos</dt>
+                    <dd>
+                        <a title="calculadora" href="js/calculadora.html">
+                            <img src="img/imagen_trabajo.jpg" alt="calculadora" width="100%" height="100%">
+                           </a></dd>
+                    </dd>
+                  </dl>
+                  
+            </div>
+               
+        </div>
+     
     <footer>
         <div id="wrap-footer">
             <p>
@@ -31,5 +86,10 @@
             </p>
         </div>
     </footer>
+    <script type="text/javascript">
+        function pop(){
+            window.open("js/calculadora.html","","width=600%,height=600%");
+        }
+      </script>
 </body>
 </html>
