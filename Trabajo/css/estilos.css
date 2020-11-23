@@ -2,6 +2,7 @@
 /* Para importar otros css a esta principal*/
 @import url('seccion.css');
 @import url('guia.css');
+@import url('contacto.css');
 
 *{
     margin: 0;
