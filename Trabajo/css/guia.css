@@ -1,10 +1,5 @@
-.imagen{
-  margin-top:50px;
-  width: 30%;
-  height: 40%;
- margin: 20px;
- margin-top: 100px;
-
+*{
+  box-sizing: border-box;
 }
 .h1guia{
     margin-top:100px;
@@ -12,6 +7,31 @@
     font-size: 50px;
     
 }
+.responsive{
+  padding: 0 6px;
+  display: flex;
+  width: 100%;
+  padding-top: 50px;
+  margin-right: 20px;
+  margin-top: 5%;
+ 
+  
+}
 
+
+
+.gallery img{
+  width: 100%;
+  height: auto;
+  border: black solid 2px;
+ 
+}
+
+ .gallery h4{
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+  text-align: center;
+  padding: 15px;
+}
 
 

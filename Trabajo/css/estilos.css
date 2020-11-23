@@ -17,6 +17,12 @@ h2{
     font-family: 'Lobster', cursive;
     
 }
+h4{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 30px;
+    
+}
  .body1{
     background: url(../img/FONDO.png);
     background-repeat: no-repeat;
