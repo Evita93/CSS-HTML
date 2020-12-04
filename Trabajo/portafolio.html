@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,maximum-scale=1,minimum-scale=1">
-    <title>Document</title>
+    <title>Portafolio</title>
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/fontello.css">
 </head>
@@ -17,7 +17,7 @@
         <nav class="menu">
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="#">Perfil</a></li>
+                <li><a href="perfil.html">Perfil</a></li>
                 <li><a href="guia.html">Guia de Estilo</a></li>
                 <li><a href="portafolio.html">Portafolio</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
@@ -25,7 +25,12 @@
 
         </nav>
     </header>
-     
+       
+        <h1>Click en la foto para ver los trabajos :</h1>
+        <h5>Trabajo de Despliege de Aplicaciones en PDF:</h5>
+        <input type="button" value="Ver Pop Up de Desplieges Web PDFS" onclick="pop1()">
+       
+       
         <div>
             <div >
                 <dl>
@@ -36,7 +41,7 @@
                        </a></dd>
                        
                   </dl>
-                  <input type="button" value="Ver Pop Up" onclick="pop()">
+                  <input type="button" value="Ver Pop Up de Calculadora" onclick="pop()">
     
             </div>
             <div >
@@ -67,8 +72,8 @@
                 <dl>
                     <dt>Trabajos</dt>
                     <dd>
-                        <a title="calculadora" href="js/calculadora.html">
-                            <img src="img/imagen_trabajo.jpg" alt="calculadora" width="100%" height="100%">
+                        <a title="trabajo" href="js/trabajo.html">
+                            <img src="img/imagen_trabajo.jpg" alt="trabajo" width="100%" height="100%">
                            </a></dd>
                     </dd>
                   </dl>
@@ -86,8 +91,12 @@
         </div>
     </footer>
     <script type="text/javascript">
+       window.onload=function(){alert('** Bienvenidos al Portafolio **');}
         function pop(){
             window.open("js/calculadora.html","","width=600%,height=600%");
+        }
+        function pop1(){
+            window.open("media/Ejercicio de Despliege.pdf","","width=600%,height=600%");
         }
       </script>
 </body>

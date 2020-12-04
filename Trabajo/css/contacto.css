@@ -20,7 +20,7 @@ body {
         width: 480px;
         padding: 1em;
         
-        position: fixed;
+        margin-top: 300px;
         bottom: 0;
         right: 0;
         left: 55px;
@@ -30,10 +30,7 @@ body {
     }
     
     #container h2 {
-        background: url(https://static.pexels.com/photos/5782/nature-flowers-vintage-plant.jpg);
-            
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
+       
     /* 	background-image: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%); */
         font-family: 'Playfair Display', serif;
         background-repeat: no-repeat;
